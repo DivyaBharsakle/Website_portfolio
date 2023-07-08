@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Digital Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+      display: flex;
+    }
+    
+    .sidebar {
+      background-color: #f2f2f2;
+      width: 200px;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: fixed; /* Added property */
+      top: 0; /* Added property */
+      left: 0; /* Added property */
+      bottom: 0; /* Added property */
+    }
+    
+    .sidebar img {
+      width: 150px;
+      height: 200px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+    
+    .content {
+      flex: 1;
+      padding: 20px;
+      margin-left: 200px; /* Added property */
+    }
+    
+    .compartment {
+      background-color: #e6e6e6;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    
+    /* IDs for navigation */
+    #compartment1 {
+      background-color: #ffcccc;
+    }
+    
+    #compartment2 {
+      background-color: #ccffcc;
+    }
+    
+    #compartment3 {
+      background-color: #ccccff;
+    }
+    
+    #compartment4 {
+      background-color: #ffffcc;
+    }
+
+    #compartment5 {
+      background-color: #ffcccc;
+    }
+
+    #compartment6 {
+      background-color: #ccffcc;
+    }
+
+    #compartment7 {
+      background-color: #ccccff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <img src="C:\Users\hp\Desktop\Profile photo.jpeg" alt="Circular Photo">
+      <a href="#compartment1">Introduction</a>
+      <a href="#compartment2">Education</a>
+      <a href="#compartment3">Work</a>
+      <a href="#compartment4">Skills</a>
+      <a href="#compartment5">Hobbies</a>
+      <a href="#compartment6">Certificates</a>
+      <a href="#compartment7">Contact</a>
+    </div>
+    <div class="content">
+      <div class="introduction" id="compartment1">
+        <h2>Introduction</h2>
+        <p>I, Divya, thank you for taking interest in my portfolio.</p>
+        <p> I am a proud MITian pursuing the degree of Civil Engineering at MIT Academy of Engineering, Pune.</p>   
+      </div>
+      <div class="education" id="compartment2">
+        <h2>Education</h2>
+        <p>[ Xth ] School: Noel English High School</p>
+    
+
+        <p>[ XIIth] Junior College: Late Jyoti Janolkar College</p>
+    
+
+        <p>Current: MIT Academy of Engineering</p>
+        <p>Pursuing: Civil Engineering B Tech</p>
+        <img src="C:\Users\hp\Desktop\College.jpg" alt="College">
+      </div>
+      <!-- Compartment 3 -->
+      <div class="work" id="compartment3">
+        <h2>Work</h2>
+        <p>1. Snake Bot</p>
+        <p>A remote control snake bot with beads as a moving mechanism for exploring grounds.</p>
+        <p>Materials used: Switch, Battery, Circuit, Capacitor, cable, Arduino, camera, Electric wire chain, cardboard, nut bolt, Motors, etc.</p>
+
+        <img src="C:\Users\hp\Desktop\snake bot.jpg" alt="work sample4" style="width: 150px; height: auto;">
+               
+        <p>2. Drone</p>
+        <img src="C:\Users\hp\Desktop\Final Drone.jpg" alt="work sample1" style="width: 150px; height: auto;">
+        <img src="C:\Users\hp\Desktop\drone.jpg" alt="work sample1" style="width: 150px; height: auto;">
+      </div>
+
+      <!-- Compartment 4 -->
+      <div class="skills" id="compartment4">
+        <h2>Skills</h2>
+        <p>1. Photography</p>
+        <p>2. Fusion</p>
+        <img src="C:\Users\hp\Desktop\P7.jpeg" alt="." style="width: 150px; height: auto;">
+        <img src="C:\Users\hp\Desktop\P8.jpeg" alt="." style="width: 150px; height: auto;">
+        <img src="C:\Users\hp\Desktop\P9.jpeg" alt="." style="width: 150px; height: auto;">
+        <img src="C:\Users\hp\Desktop\Model3.png" alt="." style="width: 150px; height: auto;">
+        <img src="C:\Users\hp\Desktop\model1.png" alt="." style="width: 150px; height: auto;">
+        <img src="C:\Users\hp\Desktop\Model4.png" alt="." style="width: 150px; height: auto;">
+        <img src="C:\Users\hp\Desktop\Model6.png" alt="." style="width: 150px; height: auto;">
+      </div>
+
+      <!-- Compartment 5 -->
+      <div class="hobbies" id="compartment5">
+        <h2>Hobbies</h2>
+        <p>Arts and Crafts</p>
+        <img src="C:\Users\hp\Desktop\J1.jpeg" alt="." style="width: 150px; height: auto;">
+        <img src="C:\Users\hp\Desktop\Ra1.jpeg" alt="." style="width: 150px; height: auto;">
+        <img src="C:\Users\hp\Desktop\Crafts.png" alt="." style="width: 150px; height: auto;">
+      </div>
+      <div class="certificates" id="compartment6">
+        <h2>Certificates</h2>
+        <img src="C:\Users\hp\Desktop\Cisco Certificate.jpg" alt="."> <img src="C:\Users\hp\Desktop\Yoga Certificate.jpeg" alt=".">
+      </div>
+      <div class="contact" id="compartment7">
+        <h2>Conatct</h2>
+        <p>Phone no: 8600315417</p>
+        <p>Email id: divya.bharsakle@mitaoe.ac.in
+        <p>Linkedin: https://www.linkedin.com/in/divya-bharsakle-037a5725b</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
